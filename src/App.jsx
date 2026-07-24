@@ -198,14 +198,14 @@ const Portfolio = () => {
             <div className="relative group">
               <span className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-gray-600 border-4 border-gray-950 group-hover:bg-gray-400 group-hover:shadow-[0_0_10px_rgba(156,163,175,0.8)] transition-all"></span>
 
-              <h4 className="text-2xl font-bold text-gray-100">Software Engineer (Apprenticeship)</h4>
+              <h4 className="text-2xl font-bold text-gray-100">Software Development Trainee</h4>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
                 <span className="text-gray-300 font-medium">XworkZ ODC</span>
                 <span className="hidden sm:inline text-gray-600">•</span>
                 <span className="text-gray-400 font-mono text-sm">Oct 2021 - Feb 2022</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Developed Java-based modules utilizing Core Java, OOPs concepts, and multithreading. Built cross-platform UI screens and handled API consumption bridging frontend structures with backend logic.
+                Completed an intensive, hands-on training program focused on Java-based modules. Developed applications utilizing Core Java, OOPs concepts, and multithreading while building cross-platform UI screens.
               </p>
             </div>
 
@@ -225,16 +225,16 @@ const Portfolio = () => {
         </section>
         {/* FIXED FLOATING BACK TO TOP BUTTON */}
         <div className="fixed bottom-8 right-8 z-50">
-          <button 
+          <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center justify-center w-12 h-12 bg-gray-800 border border-gray-700 hover:border-cyan-500 hover:bg-gray-700 text-gray-300 hover:text-cyan-400 rounded-full shadow-lg hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all hover:-translate-y-1"
             aria-label="Back to top"
           >
-            <svg 
-              className="w-6 h-6" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24" 
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
