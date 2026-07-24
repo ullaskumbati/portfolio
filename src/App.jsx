@@ -8,7 +8,7 @@ const Portfolio = () => {
         {/* HERO SECTION */}
         <header className="space-y-6 animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
-            Ullas BK
+            Ullas Kumbati
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-gray-100">
             MERN Stack Developer
