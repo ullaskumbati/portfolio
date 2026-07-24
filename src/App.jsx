@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {GitHubCalendar} from 'react-github-calendar';
 const Portfolio = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-300 font-sans selection:bg-cyan-500 selection:text-white">
@@ -75,7 +75,26 @@ const Portfolio = () => {
 
           </div>
         </section>
+        {/* GITHUB CONTRIBUTIONS */}
+        <section className="mb-20">
+          <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">
+            GitHub Contributions
+          </h3>
 
+          <div className="flex justify-center bg-gray-900/40 p-8 rounded-2xl border border-gray-800 overflow-x-auto hover:border-cyan-500/30 transition-colors shadow-lg">
+            {/* The component automatically fetches your data from GitHub! */}
+            <GitHubCalendar
+              username="ullaskumbati"
+              colorScheme="dark"
+              blockSize={14}
+              blockMargin={6}
+              fontSize={14}
+              theme={{
+                dark: ['#1f2937', '#0e7490', '#06b6d4', '#22d3ee', '#67e8f9']
+              }}
+            />
+          </div>
+        </section>
         {/* EXPERIENCE / PROJECTS */}
         <section>
           <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">Key Engineering Achievements</h3>
@@ -247,8 +266,8 @@ const Portfolio = () => {
             © 2026 Ullas Kumbati. All rights reserved.
           </p>
           <p className="text-gray-600 text-sm flex items-center gap-1">
-            Built with 
-            <span className="text-cyan-500/70 font-medium">React</span> & 
+            Built with
+            <span className="text-cyan-500/70 font-medium">React</span> &
             <span className="text-cyan-500/70 font-medium">Tailwind</span>
           </p>
         </footer>
