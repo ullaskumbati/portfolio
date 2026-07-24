@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-300 font-sans selection:bg-cyan-500 selection:text-white">
       <div className="max-w-5xl mx-auto px-6 py-20 space-y-24">
-        
+
         {/* HERO SECTION */}
         <header className="space-y-6 animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
@@ -13,7 +13,7 @@ const Portfolio = () => {
           <h2 className="text-2xl md:text-3xl font-medium text-gray-100">
             MERN Stack Developer
           </h2>
-          
+
           {/* CONTACT & LINKS BAR */}
           <div className="flex flex-wrap items-center gap-4 pt-2 pb-2 text-sm font-medium">
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 rounded-lg text-gray-400">
@@ -42,7 +42,7 @@ const Portfolio = () => {
         <section>
           <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">Technical Arsenal</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
+
             {/* Frontend */}
             <div className="bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-cyan-500/50 transition-colors">
               <h4 className="text-cyan-400 font-semibold mb-4 text-lg">Frontend</h4>
@@ -80,7 +80,7 @@ const Portfolio = () => {
         <section>
           <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">Key Engineering Achievements</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
+
             {/* Card 1: Rich Text Editor */}
             <div className="group relative bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-cyan-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(8,145,178,0.1)]">
               <h4 className="text-2xl font-bold text-gray-100 mb-3">Custom Rich Text Editor Engine</h4>
@@ -139,6 +139,74 @@ const Portfolio = () => {
                 <span className="w-2 h-2 rounded-full bg-pink-400 animate-pulse"></span>
                 Bridged web and desktop workflows
               </div>
+            </div>
+
+          </div>
+        </section>
+        {/* CAREER TIMELINE */}
+        <section>
+          <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">Experience</h3>
+
+          <div className="ml-3 border-l-2 border-gray-800 pl-8 space-y-12">
+
+            {/* DealDox - Current */}
+            <div className="relative group">
+              <span className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-cyan-500 border-4 border-gray-950 group-hover:bg-cyan-400 group-hover:shadow-[0_0_10px_rgba(34,211,238,0.8)] transition-all"></span>
+
+              <h4 className="text-2xl font-bold text-gray-100">Software Developer</h4>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
+                <span className="text-cyan-400 font-medium">DealDox.io</span>
+                <span className="hidden sm:inline text-gray-600">•</span>
+                <span className="text-gray-400 font-mono text-sm">Jul 2024 - Present</span>
+              </div>
+              <p className="text-gray-400 leading-relaxed">
+                Driving innovation and R&D for CPQ (Configure, Price, Quote) solutions. Architecting robust, highly scalable software infrastructure utilizing the MERN stack to deliver enterprise-grade performance.
+              </p>
+            </div>
+
+            {/* DealDox - Junior */}
+            <div className="relative group">
+              <span className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-blue-500 border-4 border-gray-950 group-hover:bg-blue-400 group-hover:shadow-[0_0_10px_rgba(59,130,246,0.8)] transition-all"></span>
+
+              <h4 className="text-2xl font-bold text-gray-100">Junior Software Developer</h4>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
+                <span className="text-blue-400 font-medium">DealDox.io</span>
+                <span className="hidden sm:inline text-gray-600">•</span>
+                <span className="text-gray-400 font-mono text-sm">Jan 2023 - Jun 2024</span>
+              </div>
+              <p className="text-gray-400 leading-relaxed">
+                Successfully developed and deployed core product features using MongoDB, Express.js, React.js, and Node.js. Designed responsive user interfaces, integrated third-party APIs, and executed performance optimization strategies for speed and efficiency.
+              </p>
+            </div>
+
+            {/* Bristlecone */}
+            <div className="relative group">
+              <span className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-purple-500 border-4 border-gray-950 group-hover:bg-purple-400 group-hover:shadow-[0_0_10px_rgba(168,85,247,0.8)] transition-all"></span>
+
+              <h4 className="text-2xl font-bold text-gray-100">Associate Software Engineer</h4>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
+                <span className="text-purple-400 font-medium">Bristlecone India Limited (Mahindra Group)</span>
+                <span className="hidden sm:inline text-gray-600">•</span>
+                <span className="text-gray-400 font-mono text-sm">Mar 2022 - Oct 2022</span>
+              </div>
+              <p className="text-gray-400 leading-relaxed">
+                Focused on front-end development, engineering responsive and dynamic enterprise web pages utilizing HTML, CSS, JavaScript, and Bootstrap frameworks.
+              </p>
+            </div>
+
+            {/* XworkZ */}
+            <div className="relative group">
+              <span className="absolute -left-[41px] top-1.5 w-4 h-4 rounded-full bg-gray-600 border-4 border-gray-950 group-hover:bg-gray-400 group-hover:shadow-[0_0_10px_rgba(156,163,175,0.8)] transition-all"></span>
+
+              <h4 className="text-2xl font-bold text-gray-100">Software Engineer (Apprenticeship)</h4>
+              <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
+                <span className="text-gray-300 font-medium">XworkZ ODC</span>
+                <span className="hidden sm:inline text-gray-600">•</span>
+                <span className="text-gray-400 font-mono text-sm">Oct 2021 - Feb 2022</span>
+              </div>
+              <p className="text-gray-400 leading-relaxed">
+                Developed Java-based modules utilizing Core Java, OOPs concepts, and multithreading. Built cross-platform UI screens and handled API consumption bridging frontend structures with backend logic.
+              </p>
             </div>
 
           </div>
