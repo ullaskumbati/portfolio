@@ -143,6 +143,22 @@ const Portfolio = () => {
 
           </div>
         </section>
+        {/* EDUCATION SECTION */}
+        <section>
+          <h3 className="text-3xl font-bold text-gray-100 mb-8 border-b border-gray-800 pb-4">Education</h3>
+          <div className="group relative bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-emerald-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)]">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div>
+                <h4 className="text-2xl font-bold text-gray-100 mb-2">Bachelor of Mechanical Engineering</h4>
+                <p className="text-emerald-400 font-medium text-lg">PESITM • Shivamogga</p>
+              </div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-950/50 text-emerald-400 text-sm font-medium border border-emerald-900/50">
+                <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                Degree Completed
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
