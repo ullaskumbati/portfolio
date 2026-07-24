@@ -223,6 +223,24 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
+        {/* FIXED FLOATING BACK TO TOP BUTTON */}
+        <div className="fixed bottom-8 right-8 z-50">
+          <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center justify-center w-12 h-12 bg-gray-800 border border-gray-700 hover:border-cyan-500 hover:bg-gray-700 text-gray-300 hover:text-cyan-400 rounded-full shadow-lg hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all hover:-translate-y-1"
+            aria-label="Back to top"
+          >
+            <svg 
+              className="w-6 h-6" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24" 
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );
