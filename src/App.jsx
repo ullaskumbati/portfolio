@@ -241,6 +241,17 @@ const Portfolio = () => {
             </svg>
           </button>
         </div>
+        {/* FOOTER */}
+        <footer className="mt-20 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-gray-500 text-sm">
+            © 2026 Ullas Kumbati. All rights reserved.
+          </p>
+          <p className="text-gray-600 text-sm flex items-center gap-1">
+            Built with 
+            <span className="text-cyan-500/70 font-medium">React</span> & 
+            <span className="text-cyan-500/70 font-medium">Tailwind</span>
+          </p>
+        </footer>
       </div>
     </div>
   );
