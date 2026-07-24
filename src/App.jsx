@@ -152,10 +152,6 @@ const Portfolio = () => {
                 <h4 className="text-2xl font-bold text-gray-100 mb-2">Bachelor of Mechanical Engineering</h4>
                 <p className="text-emerald-400 font-medium text-lg">PESITM • Shivamogga</p>
               </div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-950/50 text-emerald-400 text-sm font-medium border border-emerald-900/50">
-                <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                Degree Completed
-              </div>
             </div>
           </div>
         </section>
