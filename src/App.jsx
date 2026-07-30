@@ -7,12 +7,37 @@ const Portfolio = () => {
 
         {/* HERO SECTION */}
         <header className="space-y-6 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
-            Ullas Kumbati
-          </h1>
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
+              Ullas Kumbati
+            </h1>
+
+            {/* Current Roles Badges */}
+            <div className="flex flex-wrap items-center gap-3">
+              <a 
+                href="https://www.dealdox.io" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-xl text-cyan-300 text-xs font-semibold shadow-lg backdrop-blur-md transition-all group"
+              >
+                <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span>Currently working at <span className="underline group-hover:text-white">DealDox.io</span></span>
+              </a>
+              <a 
+                href="https://uknit.in" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="inline-flex items-center gap-2 px-4 py-2 bg-purple-950/40 border border-purple-800/60 hover:border-purple-500 rounded-xl text-purple-300 text-xs font-semibold shadow-lg backdrop-blur-md transition-all group"
+              >
+                <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
+                <span>Founder & CEO at <span className="underline group-hover:text-white">uKnit.in</span></span>
+              </a>
+            </div>
+          </div>
+
           <h2 className="text-2xl md:text-3xl font-medium text-gray-100">
             MERN Stack Developer
-          </h2>
+        </h2>
 
           {/* CONTACT & LINKS BAR */}
           <div className="flex flex-wrap items-center gap-4 pt-2 pb-2 text-sm font-medium">
@@ -174,7 +199,7 @@ const Portfolio = () => {
 
               <h4 className="text-2xl font-bold text-gray-100">Software Developer</h4>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
-                <span className="text-cyan-400 font-medium">DealDox.io</span>
+                <a href="https://www.dealdox.io" target="_blank" rel="noreferrer" className="text-cyan-400 hover:underline font-medium">DealDox.io</a>
                 <span className="hidden sm:inline text-gray-600">•</span>
                 <span className="text-gray-400 font-mono text-sm">Jul 2024 - Present</span>
               </div>
@@ -189,7 +214,7 @@ const Portfolio = () => {
 
               <h4 className="text-2xl font-bold text-gray-100">Junior Software Developer</h4>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-lg mt-1 mb-3">
-                <span className="text-blue-400 font-medium">DealDox.io</span>
+                <a href="https://www.dealdox.io" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline font-medium">DealDox.io</a>
                 <span className="hidden sm:inline text-gray-600">•</span>
                 <span className="text-gray-400 font-mono text-sm">Jan 2023 - Jun 2024</span>
               </div>
@@ -246,7 +271,7 @@ const Portfolio = () => {
         <div className="fixed bottom-8 right-8 z-50">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center justify-center w-12 h-12 bg-gray-800 border border-gray-700 hover:border-cyan-500 hover:bg-gray-700 text-gray-300 hover:text-cyan-400 rounded-full shadow-lg hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all hover:-translate-y-1"
+            className="flex items-center justify-center w-12 h-12 bg-gray-800 border border-gray-700 hover:border-cyan-500 hover:bg-gray-700 text-gray-300 hover:text-cyan-400 rounded-full shadow-lg hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] transition-all hover:-translate-y-1 cursor-pointer"
             aria-label="Back to top"
           >
             <svg
