@@ -1,5 +1,5 @@
 import React from 'react';
-import {GitHubCalendar} from 'react-github-calendar';
+import { GitHubCalendar } from 'react-github-calendar';
 const Portfolio = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-300 font-sans selection:bg-cyan-500 selection:text-white">
@@ -14,19 +14,19 @@ const Portfolio = () => {
 
             {/* Current Roles Badges */}
             <div className="flex flex-wrap items-center gap-3">
-              <a 
-                href="https://www.dealdox.io" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://www.dealdox.io"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-xl text-cyan-300 text-xs font-semibold shadow-lg backdrop-blur-md transition-all group"
               >
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
                 <span>Currently working at <span className="underline group-hover:text-white">DealDox.io</span></span>
               </a>
-              <a 
-                href="https://uknit.in" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://uknit.in"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-purple-950/40 border border-purple-800/60 hover:border-purple-500 rounded-xl text-purple-300 text-xs font-semibold shadow-lg backdrop-blur-md transition-all group"
               >
                 <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
           <h2 className="text-2xl md:text-3xl font-medium text-gray-100">
             MERN Stack Developer
-        </h2>
+          </h2>
 
           {/* CONTACT & LINKS BAR */}
           <div className="flex flex-wrap items-center gap-4 pt-2 pb-2 text-sm font-medium">
@@ -55,6 +55,16 @@ const Portfolio = () => {
             </a>
             <a href="https://github.com/ullaskumbati" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-pink-500 rounded-lg text-gray-300 hover:text-pink-400 transition-all">
               💻 GitHub
+            </a>
+            <a
+              href="/Ullas_Bk_Resume_2026.pdf"
+              download="Ullas_Bk_Resume_2026.pdf"
+              className="flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-lg text-cyan-300 hover:text-white transition-all shadow-lg group"
+            >
+              <svg className="w-4 h-4 transition-transform group-hover:-translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              <span>Resume</span>
             </a>
           </div>
 
