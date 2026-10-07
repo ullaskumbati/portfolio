@@ -44,10 +44,10 @@ const Portfolio = () => {
             <div className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 rounded-lg text-gray-400">
               📍 Bengaluru, India
             </div>
-            <a href="mailto:your.email@example.com" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-cyan-500 rounded-lg text-gray-300 hover:text-cyan-400 transition-all">
+            <a href="mailto:ullasbkumbati@gmail.com" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-cyan-500 rounded-lg text-gray-300 hover:text-cyan-400 transition-all">
               📧 ullasbkumbati@gmail.com
             </a>
-            <a href="tel:+910000000000" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-blue-500 rounded-lg text-gray-300 hover:text-blue-400 transition-all">
+            <a href="tel:+917892564006" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-blue-500 rounded-lg text-gray-300 hover:text-blue-400 transition-all">
               📱 +91 7892564006
             </a>
             <a href="https://www.linkedin.com/in/ullas-kumbati-415456225/" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2 bg-gray-900/80 border border-gray-800 hover:border-purple-500 rounded-lg text-gray-300 hover:text-purple-400 transition-all">
