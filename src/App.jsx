@@ -194,7 +194,49 @@ const Portfolio = () => {
                 Bridged web and desktop workflows
               </div>
             </div>
+{/* Card 6: Personal MERN Project */}
+            <div className="group relative bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-emerald-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)]">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="text-2xl font-bold text-gray-100">Real-Time MERN Ecosystem</h4>
+                <span className="text-xs font-mono px-3 py-1 bg-gray-800 text-emerald-400 rounded-full border border-gray-700">Personal R&D</span>
+              </div>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                Engineered a scalable full-stack application to explore real-time bi-directional data flow using WebSockets, optimized state reconciliation, Redis caching layers, and robust JWT-based authentication microservices.
+              </p>
 
+              {/* Footer action bar with Live Demo and GitHub buttons */}
+              <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-gray-800/80">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/50 text-emerald-400 text-xs font-medium border border-emerald-900/50">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                  Node.js • React • MongoDB
+                </div>
+                
+                <div className="flex items-center gap-3">
+                  {/* Live Demo Button */}
+                  <a 
+                    href="https://ubk-frontend-tv2e.vercel.app/" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-gray-950 text-xs font-semibold rounded-lg transition-all shadow-md"
+                  >
+                    <span>Live Demo</span>
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+
+                  {/* GitHub Repository Link */}
+                  <a 
+                    href="https://github.com/ullaskumbati/ubk-backend" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="px-3 py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white text-xs font-medium rounded-lg transition-all border border-gray-700"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         {/* CAREER TIMELINE */}
