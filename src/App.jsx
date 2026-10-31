@@ -195,12 +195,13 @@ const Portfolio = () => {
               </div>
             </div>
 {/* Card 6: Personal MERN Project */}
-            <div className="group relative bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-emerald-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)]">
+           {/* Card 6: Personal MERN Project */}
+            <div className="group relative md:col-span-2 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-emerald-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)]">
               <div className="flex items-center justify-between mb-3">
                 <h4 className="text-2xl font-bold text-gray-100">Real-Time MERN Ecosystem</h4>
                 <span className="text-xs font-mono px-3 py-1 bg-gray-800 text-emerald-400 rounded-full border border-gray-700">Personal R&D</span>
               </div>
-              <p className="text-gray-400 mb-6 leading-relaxed">
+              <p className="text-gray-400 mb-6 leading-relaxed max-w-3xl">
                 Engineered a scalable full-stack application to explore real-time bi-directional data flow using WebSockets, optimized state reconciliation, Redis caching layers, and robust JWT-based authentication microservices.
               </p>
 
