@@ -57,8 +57,8 @@ const Portfolio = () => {
               💻 GitHub
             </a>
             <a
-              href="/Ullas_Bk_Resume_2026.pdf"
-              download="Ullas_Bk_Resume_2026.pdf"
+              href="/Resume.pdf"
+              download="Ullas_Bk_Software_devloper_Resume_2026.pdf"
               className="flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-lg text-cyan-300 hover:text-white transition-all shadow-lg group"
             >
               <svg className="w-4 h-4 transition-transform group-hover:-translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
