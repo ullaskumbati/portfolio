@@ -57,7 +57,7 @@ const Portfolio = () => {
               💻 GitHub
             </a>
             <a
-              href="/Ullas_Bk_Software_Developer.pdf"
+              href="/Ullas_Bk_Software_Developer_Resume.pdf"
               download="Ullas_Bk_Software_devloper_Resume_2026.pdf"
               className="flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-lg text-cyan-300 hover:text-white transition-all shadow-lg group"
             >
