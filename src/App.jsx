@@ -57,7 +57,7 @@ const Portfolio = () => {
               💻 GitHub
             </a>
             <a
-              href="/Ullas_BK_Software_Developer_Resume.pdf"
+              href="/Ullas_BK_MERN_Software_Developer_Resume.pdf"
               download="Ullas_Bk_Software_devloper_Resume_2026.pdf"
               className="flex items-center gap-2 px-4 py-2 bg-cyan-950/40 border border-cyan-800/60 hover:border-cyan-500 rounded-lg text-cyan-300 hover:text-white transition-all shadow-lg group"
             >
@@ -194,8 +194,9 @@ const Portfolio = () => {
                 Bridged web and desktop workflows
               </div>
             </div>
-{/* Card 6: Personal MERN Project */}
-           {/* Card 6: Personal MERN Project */}
+            {/* Card 6: Personal MERN Project */}
+            {/* Card 6: Personal MERN Project */}
+            {/* Card 6: Personal MERN Project + AI Assistant */}
             <div className="group relative md:col-span-2 bg-gray-900/80 p-8 rounded-2xl border border-gray-800 hover:border-emerald-500/50 transition-all hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(16,185,129,0.1)]">
               <div className="flex items-center justify-between mb-3">
                 <h4 className="text-2xl font-bold text-gray-100">Real-Time MERN Ecosystem</h4>
@@ -205,19 +206,49 @@ const Portfolio = () => {
                 Engineered a scalable full-stack application to explore real-time bi-directional data flow using WebSockets, optimized state reconciliation, Redis caching layers, and robust JWT-based authentication microservices.
               </p>
 
+              {/* AI Assistant built into the same project */}
+              <div className="mb-6 p-5 rounded-xl bg-gray-950/60 border border-emerald-900/40">
+                <div className="flex items-center justify-between mb-2">
+                  <h5 className="text-lg font-semibold text-emerald-400">AI Document &amp; Recipe Assistant</h5>
+                  <span className="text-[10px] font-mono px-2 py-0.5 bg-emerald-950/60 text-emerald-300 rounded-full border border-emerald-900/50">GenAI</span>
+                </div>
+                <p className="text-gray-400 text-sm leading-relaxed mb-4 max-w-3xl">
+                  Built from scratch to learn how GenAI apps really work: upload a PDF and chat with it, or ask for recipe ideas. A Node/Express backend calls the Gemini API with JWT-protected endpoints, session memory, and a fallback model when one is overloaded.
+                </p>
+
+                <ul className="grid md:grid-cols-2 gap-3 text-sm text-gray-400">
+                  <li className="flex gap-2">
+                    <span className="text-emerald-400 mt-0.5">▹</span>
+                    <span><span className="text-gray-200 font-medium">RAG pipeline:</span> PDFs are parsed, chunked with overlap, and converted into embeddings.</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-emerald-400 mt-0.5">▹</span>
+                    <span><span className="text-gray-200 font-medium">Vector search:</span> embeddings live in MongoDB Atlas, queried with $vectorSearch and filtered per user so documents stay private.</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-emerald-400 mt-0.5">▹</span>
+                    <span><span className="text-gray-200 font-medium">Agentic tool calling:</span> the model decides whether to search documents or call the Spoonacular recipe API, while my code validates and runs every tool.</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="text-emerald-400 mt-0.5">▹</span>
+                    <span><span className="text-gray-200 font-medium">Grounded answers:</span> responses cite their sources, and say so when the answer isn't in the document instead of guessing.</span>
+                  </li>
+                </ul>
+              </div>
+
               {/* Footer action bar with Live Demo and GitHub buttons */}
               <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-gray-800/80">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/50 text-emerald-400 text-xs font-medium border border-emerald-900/50">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                  Node.js • React • MongoDB
+                  Node.js • React • MongoDB • Gemini API • RAG
                 </div>
-                
+
                 <div className="flex items-center gap-3">
                   {/* Live Demo Button */}
-                  <a 
-                    href="https://ubk-frontend-tv2e.vercel.app/" 
-                    target="_blank" 
-                    rel="noreferrer" 
+                  <a
+                    href="https://ubk-frontend-tv2e.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-gray-950 text-xs font-semibold rounded-lg transition-all shadow-md"
                   >
                     <span>Live Demo</span>
@@ -227,10 +258,10 @@ const Portfolio = () => {
                   </a>
 
                   {/* GitHub Repository Link */}
-                  <a 
-                    href="https://github.com/ullaskumbati/ubk-backend" 
-                    target="_blank" 
-                    rel="noreferrer" 
+                  <a
+                    href="https://github.com/ullaskumbati/ubk-backend"
+                    target="_blank"
+                    rel="noreferrer"
                     className="px-3 py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white text-xs font-medium rounded-lg transition-all border border-gray-700"
                   >
                     GitHub
